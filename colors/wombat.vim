@@ -23,6 +23,9 @@ if version >= 700
   hi MatchParen   ctermfg=228  ctermbg=101  cterm=bold   guifg=#f6f3e8 guibg=#857b6f gui=bold
   hi Pmenu        ctermfg=230  ctermbg=238               guifg=#f6f3e8 guibg=#444444
   hi PmenuSel     ctermfg=232  ctermbg=192               guifg=#000000 guibg=#cae682
+  if version >= 703
+    hi ColorColumn               ctermbg=1                               guibg=#8b0000
+  endif
 endif
 
 " ================ General Colours ===================
@@ -37,6 +40,12 @@ hi Folded       ctermfg=103  ctermbg=237  cterm=none   guifg=#a0a8b0 guibg=#3840
 hi Title        ctermfg=230               cterm=bold   guifg=#f6f3e8               gui=bold
 hi Visual       ctermfg=251  ctermbg=239  cterm=none   guifg=#f6f3e8 guibg=#444444 gui=none
 hi SpecialKey   ctermfg=241  ctermbg=235  cterm=none   guifg=#808080 guibg=#343434 gui=none
+
+" ================ Diff Highlighting =================
+hi DiffAdd                   ctermbg=17                              guibg=#2a0d6a
+hi DiffDelete   ctermfg=234  ctermbg=60   cterm=none   guifg=#242424 guibg=#3e3969 gui=none
+hi DiffText                  ctermbg=53   cterm=none                 guibg=#73186e gui=none
+hi DiffChange                ctermbg=237                             guibg=#382a37
 
 " ================ Syntax Highlighting ===============
 hi Comment      ctermfg=246               cterm=none   guifg=#99968b               gui=italic
