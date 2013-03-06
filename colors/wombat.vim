@@ -40,6 +40,7 @@ hi Folded       ctermfg=103  ctermbg=237  cterm=none   guifg=#a0a8b0 guibg=#3840
 hi Title        ctermfg=230               cterm=bold   guifg=#f6f3e8               gui=bold
 hi Visual       ctermfg=251  ctermbg=239  cterm=none   guifg=#f6f3e8 guibg=#444444 gui=none
 hi SpecialKey   ctermfg=241  ctermbg=235  cterm=none   guifg=#808080 guibg=#343434 gui=none
+hi SignColumn   ctermfg=241  ctermbg=232  cterm=none   guifg=#857b6f guibg=#000000 gui=none
 
 " ================ Diff Highlighting =================
 hi DiffAdd                   ctermbg=17                              guibg=#2a0d6a
